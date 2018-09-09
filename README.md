@@ -17,8 +17,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Navigate into the client directory and run `ng serve --env=test` inside the client directory for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng serve --env=test --host 0.0.0.0 --disableHostCheck true` to run a test server. This is what we're running on granta-d2 right now.
-
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
