@@ -7,7 +7,6 @@ typing `npm install -g @angular/cli`
 # Local Development
 
 Upon install or clone of the repo navigate into the newly created marklogic-app directory and type `cd client` then type `npm install`.
-Then `cd ../api` and type `npm install`
 
 # Client
 
