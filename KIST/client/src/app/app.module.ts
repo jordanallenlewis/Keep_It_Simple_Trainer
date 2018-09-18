@@ -11,26 +11,28 @@ import { CommonModule } from '@angular/common';
 import { routing } from './app.routes';
 
 import { AppService } from './app.service';
-import { ExportService } from './export/export.service';
 
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
-import { ListComponent } from './list/list.component';
+
 import { FooterComponent } from './footer/footer.component';
+import { ModulesComponent } from './modules/modules.component';
+import { FindComponent } from './find/find.component';
+import { HelpComponent } from './help/help.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    NotFoundComponent,
     DashboardComponent,
     HeaderComponent,
-    ListComponent,
-    FooterComponent
+    FooterComponent,
+    ModulesComponent,
+    FindComponent,
+    HelpComponent
   ],
   imports: [
     CommonModule,
@@ -50,7 +52,6 @@ import { FooterComponent } from './footer/footer.component';
   ],
   providers: [
     AppService,
-    ExportService,
   ],
   bootstrap: [AppComponent],
   entryComponents: []
