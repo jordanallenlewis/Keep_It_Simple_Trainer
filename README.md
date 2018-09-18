@@ -1,3 +1,6 @@
+# Everyone Has a Branch
+Develop your code on your branch (which is your name) and when you want to push your code, push it to develop so that we can review it and make sure its good to go, and then we will merge it to master
+
 # Prerequisites
 
 [Node and NPM](https://nodejs.org/en/) (latest version should be fine)
