@@ -21,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ModulesComponent } from './modules/modules.component';
 import { FindComponent } from './find/find.component';
 import { HelpComponent } from './help/help.component';
+import { AccountComponent } from './account/account.component';
 
 
 @NgModule({
@@ -32,7 +33,9 @@ import { HelpComponent } from './help/help.component';
     FooterComponent,
     ModulesComponent,
     FindComponent,
-    HelpComponent
+    HelpComponent,
+    AccountComponent,
+    
   ],
   imports: [
     CommonModule,
