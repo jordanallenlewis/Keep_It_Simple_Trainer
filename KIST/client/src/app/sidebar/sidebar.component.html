@@ -1,8 +1,12 @@
 <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-dark sidebar">
   <ul class="nav nav-pills flex-column" style="margin-left: 10px">
+    
     <li class="nav-item">
       <a class="nav-link home" routerLink="/dashboard" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" routerLink="/account" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-newspaper-o"></i>Account</a>
+      </li>
     <hr class="split">
     <li class="nav-item">
       <a class="nav-link" routerLink="/modules" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-line-chart" aria-hidden="true"></i>Modules</a>
@@ -10,13 +14,10 @@
     <li class="nav-item">
       <a class="nav-link" routerLink="/find" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-building"></i>Find a Club</a>
     </li>
+    <hr class="split">    
     <li class="nav-item">
       <a class="nav-link" routerLink="/help" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-newspaper-o"></i>Help</a>
     </li>
-    <hr class="split">
-    <li class="nav-item">
-        <a class="nav-link" routerLink="/account" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-newspaper-o"></i>Account</a>
-      </li>
-    
+   
   </ul>
 </nav>
