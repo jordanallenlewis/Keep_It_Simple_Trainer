@@ -46,6 +46,7 @@ Change the config-sample.js file to config.js and add in the marklogic username 
 https://appdividend.com/2018/05/27/angular-6-crud-example-mean-stack-tutorial/
 
 # Commands you need to run 
+0. Install MongoDB https://www.mongodb.com/download-center/community?jmp=docs
 1. npm install --save express body-parser cors mongoose
 2. npm install nodemon --save-dev
 3. mongod (runs indefinitely)
