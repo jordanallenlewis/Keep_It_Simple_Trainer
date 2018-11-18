@@ -52,6 +52,6 @@ https://appdividend.com/2018/05/27/angular-6-crud-example-mean-stack-tutorial/
 4. nodemon server (runs indefinitely)
 5. ng serve (runs indefinitely)
 
-# Command to kill already running processes
+# Command to kill already running processes (mac)
 sudo lsof -t -i tcp:PUTPORTNUMBERHERE -s tcp:listen | sudo xargs kill
 
