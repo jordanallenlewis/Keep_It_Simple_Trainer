@@ -46,11 +46,11 @@ Change the config-sample.js file to config.js and add in the marklogic username 
 https://appdividend.com/2018/05/27/angular-6-crud-example-mean-stack-tutorial/
 
 # Commands rocesses you need to run 
-npm install --save express body-parser cors mongoose
-npm install nodemon --save-dev
-mongod (runs indefinitely)
-nodemon server (runs indefinitely)
-ng serve (runs indefinitely)
+1. npm install --save express body-parser cors mongoose
+2. npm install nodemon --save-dev
+3. mongod (runs indefinitely)
+4. nodemon server (runs indefinitely)
+5. ng serve (runs indefinitely)
 
 # Command to kill already running processes
 sudo lsof -t -i tcp:PUTPORTNUMBERHERE -s tcp:listen | sudo xargs kill
