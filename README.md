@@ -41,3 +41,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 To run the API navigate to the api subdirectory in terminal and type node server.js
 
 Change the config-sample.js file to config.js and add in the marklogic username and password along with the secret key (which can be anything for dev puposes)
+
+# Three processes you need to run
+1. mongod
+2. nodemon server
+3. ng serve
+
+# Command to kill already running processes
+sudo lsof -t -i tcp:PUTPORTNUMBERHERE -s tcp:listen | sudo xargs kill
+
