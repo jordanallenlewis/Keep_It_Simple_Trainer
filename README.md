@@ -42,10 +42,15 @@ To run the API navigate to the api subdirectory in terminal and type node server
 
 Change the config-sample.js file to config.js and add in the marklogic username and password along with the secret key (which can be anything for dev puposes)
 
-# Three processes you need to run
-1. mongod
-2. nodemon server
-3. ng serve
+# Tutorial that was used
+https://appdividend.com/2018/05/27/angular-6-crud-example-mean-stack-tutorial/
+
+# Commands rocesses you need to run 
+npm install --save express body-parser cors mongoose
+npm install nodemon --save-dev
+mongod (runs indefinitely)
+nodemon server (runs indefinitely)
+ng serve (runs indefinitely)
 
 # Command to kill already running processes
 sudo lsof -t -i tcp:PUTPORTNUMBERHERE -s tcp:listen | sudo xargs kill
