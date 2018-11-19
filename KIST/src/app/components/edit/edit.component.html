@@ -22,7 +22,8 @@
         </div>
       </div>
       <div class="form-group">
-        <button (click)="updateAdUnit(unit_name.value, unit_price.value)" [disabled]="angForm.invalid" class="btn btn-primary">Update Unit</button>
+        <!-- WILL NEED TO CHANGE ONCLICK EVENT AT SOMEPOINT-->
+        <button onclick="window.location.reload()" (click)="updateAdUnit(unit_name.value, unit_price.value)" [disabled]="angForm.invalid" class="btn btn-primary" >Update Unit</button>
       </div>
     </form>
   </div>
