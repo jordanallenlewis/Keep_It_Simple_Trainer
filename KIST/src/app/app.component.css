@@ -2,3 +2,24 @@ p
 {
     float: right;
 }
+.bar{
+    background-color: gold;
+    opacity: .9;
+}
+.right {
+    list-style:none;
+    display:flex;
+    position:absolute;
+    right:2%;
+    /* margin:10px; */
+    /* float: right;  */
+    
+}
+
+.left{
+    float: left;
+
+}
+.asu{
+    top: -3px;
+}

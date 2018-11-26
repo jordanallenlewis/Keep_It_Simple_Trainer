@@ -1,6 +1,6 @@
 <!-- create.component.html -->
 
-<div class="card">
+<div class=" blockP1 card">
   <div class="card-body">
     <form [formGroup]="angForm" novalidate>
       <div class="form-group">
@@ -21,7 +21,7 @@
           Number is required.
         </div>
       </div>
-      <div class="form-group">
+      <div class="btnList">
         <button onclick="window.location.reload()" (click)="addAdUnit(unit_name.value, unit_price.value)" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-primary">Create Data</button>
       </div>
     </form>
